@@ -4,7 +4,6 @@ import { greenBright, redBright } from 'chalk';
 let database: mongoose.Connection;
 
 export const connect = (uri: string) => {
-    // const uri = 'mongodb+srv://dbTest:admin@cluster0.k4x76.mongodb.net/disboard?retryWrites=true&w=majority';
 
     if (database)
         return;
